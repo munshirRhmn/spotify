@@ -181,7 +181,10 @@ body {
 .list {
     display: flex;
     gap: 20px;
-    overflow: hidden;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 .item {
